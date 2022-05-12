@@ -1,7 +1,10 @@
 Options -Indexes 
 
 
-Redirect /degree/notesmcqexam.html /mcq/index.html
+Redirect /gs/index.html /index.html
+Redirect /fs/index.html /index.html
+Redirect /gs/index /index.html
+Redirect /fs/index /index.html
 
 
 
