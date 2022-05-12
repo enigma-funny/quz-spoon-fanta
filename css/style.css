@@ -1,0 +1,311 @@
+
+
+
+
+.fot1{
+/* position: absolute; */
+  bottom: 0;
+  width: 100%;
+ 
+}
+.bg-purple {
+  background-color: #6f42c1;
+}
+
+.h1rounded {
+  border-radius: 0.65rem !important;
+  position: relative;
+}
+
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+   
+}
+body {
+ 
+ 
+}
+
+.custom-in{
+  
+
+}
+
+
+
+.a-class:hover {
+  color: #0d6efd;
+  font-size: 0.95em;
+  text-decoration: none;
+}
+.a1-class {
+  color: #6c757d;
+  display: inline;
+  position: relative;
+  margin-block: 2px;
+  font-size: medium;
+  
+  text-decoration: none;
+}
+.a1-class::before{
+  content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s ease-in-out;
+}
+
+.a1-class:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+
+
+/* .a1-class::after{
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  opacity: 50;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .25s ease;
+}
+
+.a1-class:hover:after{
+  height: 1px;
+  transform: scaleX(1);
+} */
+
+#h1-banr{
+  /* box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important; */
+  box-shadow: 0 1.125rem 0.25rem rgb(0 0 0 / 12%) !important;
+  opacity: 5;
+}
+
+.question-container1{
+  border-radius: 0.65rem !important;
+  position: relative;
+}
+
+.question-container2{
+  /* font-family: 'Titillium Web', sans-serif; */
+}
+.mcq_question_no{
+  font-weight: bold;
+  
+}
+.main-question-content{
+  
+}
+
+.question-side-component{
+  
+}
+
+.answer-button{
+    padding: 0.25rem 0.9rem;
+    font-size: 0.9rem;
+    border-radius: 0.8rem;
+}
+
+.answer-text{
+  font-weight: bold;
+}
+
+
+.text-justify {
+  text-align: justify;
+}
+
+.mcq_question{
+  color:#0d6efd;
+  font-weight: bold;
+}
+.sidebar {
+    
+    height: 100%; 
+    min-height: 400px;
+    /* background-color:#333; */
+    position: -webkit-sticky;
+    position: sticky;
+    color:#FFF;
+    overflow: hidden;
+    top: 12%;
+    
+    
+  }
+
+
+  .main-section{
+   
+    /* margin-left: 2px; */
+  }
+
+
+
+  /* Progress bar */
+#progress-bar {
+	--scrollAmount: 0%;
+	
+	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	width: var(--scrollAmount);
+
+	/* 	background: linear-gradient(to right, #F24E1E var(--scrollAmount), transparent 0);
+	width: 100%; */
+	
+	height: 4px;
+	position: fixed;
+	top: 0;
+}
+
+
+
+.containerpaginati {
+  flex-wrap: wrap;
+}
+.page-link {
+  font-size: 20px;
+}
+.pagitem{
+
+}
+
+
+
+.accordion1-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .accordion1-button {
+    transition: none;
+  }
+}
+.accordion1-button:not(.collapsed) {
+  color: white;
+  /* border-radius: 10px; */
+  background-color: #0c63e4;;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+/* .accordion1-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  transform: rotate(-180deg);
+}
+.accordion1-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+} 
+@media (prefers-reduced-motion: reduce) {
+  .accordion1-button::after {
+    transition: none;
+  }
+} */
+
+.accordion1-button:hover {
+  z-index: 2;
+}
+.accordion1-button:focus {
+  z-index: 3;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.accordion1-header {
+  margin-bottom: 0;
+}
+
+.accordion1-item {
+  background-color: #fff;
+  border: 2px solid rgba(16, 0, 238, 0.125);
+}
+.accordion1-item:first-of-type {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.accordion1-item:first-of-type .accordion1-button {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+.accordion1-item:not(:first-of-type) {
+  border-top: 0;
+}
+.accordion1-item:last-of-type {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.accordion1-item:last-of-type .accordion1-button.collapsed {
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+.accordion1-item:last-of-type .accordion1-collapse {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.accordion1-body {
+  padding: 1rem 1.25rem;
+}
+
+.accordion1-flush .accordion1-collapse {
+  border-width: 0;
+}
+.accordion1-flush .accordion1-item {
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+}
+.accordion1-flush .accordion1-item:first-child {
+  border-top: 0;
+}
+.accordion1-flush .accordion1-item:last-child {
+  border-bottom: 0;
+}
+.accordion1-flush .accordion1-item .accordion1-button {
+  border-radius: 0;
+}
+
+
+.modal-header {
+
+  padding: 0.8rem 0.7rem;
+
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.veron{
+  /* textsize small */
+}
