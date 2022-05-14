@@ -11,6 +11,10 @@ var filesToCache = [
   'https://1.bp.blogspot.com/-uhKBRDhpGRw/X0i4QJUDRXI/AAAAAAAAAHI/NfffJZtcVqMld5o8Z4eSsGIZMRdSyVjBQCLcBGAsYHQ/s192/favicon.png',
   'https://1.bp.blogspot.com/-uhKBRDhpGRw/X0i4QJUDRXI/AAAAAAAAAHI/NfffJZtcVqMld5o8Z4eSsGIZMRdSyVjBQCLcBGAsYHQ/favicon.png',
   'https://1.bp.blogspot.com/-t0yhya0oGio/X0UyQHWZ0XI/AAAAAAAAAG4/IHfVnKuyMckPci4AqMbgKGtVWbMJfSVxwCLcBGAsYHQ/logo.png',
+  'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2147271038808510',
+  'https://www.googletagmanager.com/gtag/js?id=G-E44LCSC4C6',
+  'https://www.googletagmanager.com/gtag/js?id=UA-165604377-1',
+  'https://www.clarity.ms/tag/4g7w4yees2',
   '/manifest.json',
 ];
 
