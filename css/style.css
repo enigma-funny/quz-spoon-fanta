@@ -83,7 +83,8 @@ body {
 }
 .ads-container{
   /* width: 100%; */
- 
+ min-height: 120px;
+ min-width: 120px;
 }
 
 

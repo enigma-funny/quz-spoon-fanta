@@ -31,3 +31,8 @@ marquee {
   marquee-play-count: 5;
   color:#28282a;
 }
+.ads-container{
+  /* width: 100%; */
+ min-height: 120px;
+ min-width: 120px;
+}
