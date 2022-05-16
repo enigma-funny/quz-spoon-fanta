@@ -19,14 +19,14 @@ function toggle_visibility(id) {
 
 // marquee tag scrp
   const h2 = document.getElementById("mrqtop");
-  let insidemarqtext=`All the MCQ's are collected from internet so  it is advisible to verify it again | If any answer is incorrect  u can share it <code><a href="http://google" class="a1-class text-primary">click here</a></code>`
+  let insidemarqtext=`All the MCQ's are collected from internet so  it is advisible to verify it again | If any answer is incorrect  u can share it <code><a href="/mcqsubmitanswer.html" target="_blank" class="a1-class text-primary">👉click here</a></code>`
   let html = `<marquee direction="left" speed="normal" behavior="loop" scrollamount="6" >${insidemarqtext}</marquee>`;
   h2.insertAdjacentHTML("beforeend", html);
 // marquee ends 
 
 
 
-  let lsfrcls=["p-3","question-container1","shadow-sw","border","m-2"]
+  let lsfrcls=["p-1","question-container1","ads-container","shadow-sw","border","d-flex","m-1"]
 
   const ads1 = document.getElementById("adss1");
   const ads5 = document.getElementById("ads5");

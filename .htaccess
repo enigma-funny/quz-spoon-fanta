@@ -3,7 +3,7 @@ Options -Indexes
 
 Redirect /gs/index.html /index.html
 Redirect /fs/index.html /index.html
-
+Redirect /https://qpkendra.com/degree/notesmcqexam.html /index.html
 
 /Custom 400 errors
 

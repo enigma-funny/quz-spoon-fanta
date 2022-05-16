@@ -81,6 +81,11 @@ body {
   border-radius: 0.65rem !important;
   position: relative;
 }
+.ads-container{
+  /* width: 100%; */
+ 
+}
+
 
 .question-container2{
   /* font-family: 'Titillium Web', sans-serif; */

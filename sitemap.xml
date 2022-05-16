@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   
-        <url>
-    <loc>https://quiz.qpkendra.com/1.html</loc>
-    <lastmod>2022-05-11</lastmod>
-    <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
-  </url>
 
     
     <url>
@@ -19,7 +13,7 @@
 
     
     <url>
-    <loc>https://quiz.qpkendra.com/Appfeedback.html</loc>
+    <loc>https://quiz.qpkendra.com/mcqsubmitanswer.html</loc>
     <lastmod>2022-05-11</lastmod>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
@@ -41,21 +35,6 @@
     <changefreq>weekly</changefreq>
   </url>
 
-    
-    <url>
-    <loc>https://quiz.qpkendra.com/index2.html</loc>
-    <lastmod>2022-05-11</lastmod>
-    <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-
-    
-    <url>
-    <loc>https://quiz.qpkendra.com/site-maintenace.html</loc>
-    <lastmod>2022-05-11</lastmod>
-    <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
-  </url>
 
     
     <url>
