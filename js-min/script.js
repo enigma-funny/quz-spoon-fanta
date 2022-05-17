@@ -26,7 +26,7 @@ function toggle_visibility(id) {
 
 
 
-  let lsfrcls=["question-container1","shadow-sw","border","m-1","overflow-auto"]
+  let lsfrcls=["question-container1","shadow-sw","border","m-1","overflow-auto","ads-container"]
 
   const ads1 = document.getElementById("adss1");
   const ads5 = document.getElementById("ads5");

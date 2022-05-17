@@ -1,4 +1,46 @@
+@media (min-width: 576px) {
+  .ads-container{
+ 
+    min-height: 220px;
+    min-width: 566px;
+   }
+   
+  }
 
+@media (min-width: 768px) {
+  .ads-container{
+ 
+    min-height: 220px;
+    min-width: 758px;
+   }
+  }
+
+@media (min-width: 992px) {
+  .ads-container{
+ 
+    min-height: 220px;
+    min-width: 982px;
+   }
+  }
+
+@media (min-width: 1200px) {
+  .ads-container{
+ 
+    min-height: 220px;
+    min-width: 1190px;
+   }
+  }
+
+
+@media (min-width: 1400px) {
+  .ads-container{
+ 
+    min-height: 220px;
+    min-width: 1390px;
+   }
+  }
+
+    
 
 
 
@@ -183,4 +225,27 @@ body {
 
 .veron{
   font-size: 12px;
+}
+
+
+marquee {
+  -webkit-animation:  caption 50s linear 0s infinite;
+  padding:5px 0;
+  /* border: 1px solid #000; */
+  -webkit-transition: background-color 350ms;
+  -moz-transition: background-color 350ms;
+  transition: background-color 350ms;
+  overflow: hidden;
+  overflow-x:-webkit-marquee;
+  -webkit-marquee-direction: right;
+  -webkit-marquee-style: scroll;
+  -webkit-marquee-speed: normal;
+  -webkit-marquee-increment: small;
+  -webkit-marquee-repetition: 5;
+  overflow-x: marquee-line;
+  marquee-direction: forward;
+  marquee-style: loop;
+  marquee-speed: slow;
+  marquee-play-count: 5;
+  color:#28282a;
 }
