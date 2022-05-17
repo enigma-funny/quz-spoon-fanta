@@ -176,8 +176,8 @@ body {
     height: 100%; 
     min-height: 400px;
     /* background-color:#333; */
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: -webkit-sticky; */
+    /* position: sticky; */
     color:#FFF;
     overflow: hidden;
     top: 12%;
