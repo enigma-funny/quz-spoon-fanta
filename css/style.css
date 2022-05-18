@@ -257,7 +257,7 @@ color: #fa042da8;
 }
 
 .anchorjs-link:hover:before {
-content: "copy link";
+content: "link";
 color: #fa042da8;
 } 
 *:hover > .anchorjs-link {
