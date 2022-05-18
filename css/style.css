@@ -244,3 +244,22 @@ marquee {
   marquee-play-count: 5;
   color:#28282a;
 }
+.anchorjs-link{
+  display: inline-block;
+  text-align: right !important;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #fa042da8;
+}
+.anchorjs-link:hover {
+color: #fa042da8;
+}
+
+.anchorjs-link:hover:before {
+content: "copy link";
+color: #fa042da8;
+} 
+*:hover > .anchorjs-link {
+transition: color .25s linear;
+}
