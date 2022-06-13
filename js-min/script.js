@@ -28,7 +28,7 @@ function toggle_visibility(id) {
 
 
   let lsfrcls=["question-container2","shadow-sw","border","m-1"]
-
+  const sidesectionn=document.getElementById("section-2-1");
   const ads1 = document.getElementById("adss1");
   const ads5 = document.getElementById("ads5");
   const ads13 = document.getElementById("ads13");
@@ -41,6 +41,11 @@ function toggle_visibility(id) {
 // const cusprt23 = document.getElementById("cusprt23");
 
   
+
+  let sidesectionnhtml=`<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2147271038808510"crossorigin="anonymous"></script><!-- quiz.qpkendra.com-sidebar-gads-1 --><ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-2147271038808510"data-ad-slot="2375000389"data-ad-format="auto"data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>`
+  sidesectionn.insertAdjacentHTML("beforeend", sidesectionnhtml);
+
+
 //   ads1.classList.add(...lsfrcls);
 //   let ads1html=`<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2147271038808510" crossorigin="anonymous"></script><!-- quiz.qpkendra.com(inside-mcq-after-Q1) --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2147271038808510" data-ad-slot="9931475989" data-ad-format="auto" data-full-width-responsive="true"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>`
 //   ads1.insertAdjacentHTML("beforeend", ads1html);
