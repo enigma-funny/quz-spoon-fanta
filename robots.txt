@@ -60,28 +60,13 @@ User-agent: yahoo-blogs/v3.9
 Disallow: 
 
 User-agent: *
-
- 
 Disallow: /cgi-bin/
-Disallow: /css/
-Disallow: /css
-Disallow: /js/
 Disallow: /lib/
 Disallow: /sample/
-Disallow: /img/
-Disallow: /img
 Disallow: /clp/
-Disallow: /mat/
 Disallow: /clp
-Disallow: /mat/css/
-Disallow: /mat/css/
-Disallow: /img/fav/
 
-User-agent: Googlebot 
-
-Crawl-delay: 2000
-
+User-agent: Googlebot
 Disallow: /example-subfolder/
 
-Sitemap: https://quiz.qpkendra.com/sitemap.xml
-
+Sitemap: https://qpkendra.com/sitemap.xml
